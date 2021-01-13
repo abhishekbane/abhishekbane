@@ -1,0 +1,13 @@
+.projectFrame {
+    display: flex;
+    width: 18rem;
+    height: 15rem;
+    justify-content: space-between;
+    flex-direction: column;
+    cursor: default;
+}
+
+.title {
+    color: #777;
+    margin: 1rem;
+}

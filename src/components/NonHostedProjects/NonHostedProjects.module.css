@@ -1,0 +1,17 @@
+.nonHostedProjects {
+    text-decoration: none;
+    height: 5rem;
+    width: 18rem;
+    padding: 0 1rem;
+    border: none;
+    outline: none;
+    background-color: #F9C32F;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

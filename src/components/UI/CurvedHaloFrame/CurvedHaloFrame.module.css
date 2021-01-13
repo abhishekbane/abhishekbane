@@ -1,0 +1,31 @@
+.curvedHaloYellow, .curvedHaloBlue {
+    display: inline-block;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    margin: 1rem;
+    background-color: white;
+}
+
+.curvedHaloYellow {
+    border: 1px solid #f9c32f;
+}
+
+.curvedHaloYellow:hover {
+    box-shadow: 0 0 0 0.5rem rgba(249,195,47, 0.3);
+}
+
+.curvedHaloYellow:active {
+    box-shadow: 0 0 0 0.5rem rgba(249,195,47, 0.3);
+}
+
+.curvedHaloBlue {
+    border: 1px solid #2F6CF9;
+}
+
+.curvedHaloBlueHover:hover {
+    box-shadow: 0 0 0 0.5rem rgba(47, 108, 249, 0.3);
+}
+
+.curvedHaloBlueHover:active {
+    box-shadow: 0 0 0 0.5rem rgba(47, 108, 249, 0.3);
+}

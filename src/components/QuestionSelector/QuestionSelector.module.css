@@ -1,0 +1,19 @@
+.question {
+    cursor: pointer;
+    margin: 0.5rem;
+    color: #666;
+}
+
+.question:hover {
+    color: #2F6CF9;
+}
+
+.question:active {
+    color: #666;
+}
+
+.questionSelector {
+    list-style: none;
+    padding: 0.5rem 1rem;
+    margin: 0;
+}
