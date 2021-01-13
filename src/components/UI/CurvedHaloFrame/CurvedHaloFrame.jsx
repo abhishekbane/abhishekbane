@@ -3,8 +3,11 @@ import React from 'react';
 import styles from './CurvedHaloFrame.module.css';
 
 export const curvedHaloYellow = ( props ) => {
+
+    const classes = `${styles.curvedHaloYellow} ${ props.disableHalo ? "" : styles.curvedHaloYellowHover }`
+
     return (
-        <div className={ styles.curvedHaloYellow }>
+        <div className={ classes }>
             { props.children }
         </div>
     );

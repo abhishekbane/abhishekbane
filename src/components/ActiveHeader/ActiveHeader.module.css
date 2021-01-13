@@ -1,9 +1,9 @@
-.placeHolder, .activeHeaderFixed {
+.placeHolder, .barBackground, .activeHeader {
     height: 15vmin;
-    min-height: 5rem;
+    min-height: 6rem;
 }
 
-.activeHeaderFixed {
+.activeHeader {
     width: 100%;
     position: fixed;
     left: 0;
@@ -11,8 +11,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
-    background-color: rgba(249, 195, 47, 0.2);
 }
 
 .thinBar {
@@ -21,13 +19,26 @@
     background-color: #F9C32F;
 }
 
-.glowingAvatarContainer {
+.botContainer {
+    position: fixed;
+    left: 0;
+    top: 0;
+    
+    width: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+}
+
+.barBackground {
     position: absolute;
     top: 0;
     left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     width: 100%;
-    height: 100%;
+    background-color: rgba(249, 195, 47, 0.2);
+    padding: 0 1rem;
 }

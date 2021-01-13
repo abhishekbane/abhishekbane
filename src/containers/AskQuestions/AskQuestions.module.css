@@ -1,14 +1,7 @@
 .placeholder {
     width: 100%;
-    height: 5rem;
-}
-
-.questionSelector {
-    position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+    height: 15vmin;
+    min-height: 6rem;
 }
 
 .barBackground {
