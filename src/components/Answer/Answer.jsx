@@ -5,13 +5,14 @@ import { curvedHaloYellow as CurvedHaloFrame } from '../UI/CurvedHaloFrame/Curve
 
 import styles from './Answer.module.css';
 
-const answer = () => {
+const answer = ( props ) => {
+
+    const ans = props.answer ? props.answer : "";
+
     return (
         <CurvedHaloFrame disableHalo>
             <Paragraphs>
-                {
-                    `Hi! I am Abhishek. This my portfolio.`
-                }
+                { ans }
             </Paragraphs>
         </CurvedHaloFrame>
     );

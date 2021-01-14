@@ -8,7 +8,13 @@ import styles from './QuestionSelector.module.css';
 
 
 const questionSelector = ( props ) => {
-    const questions = questionsData.map( question => <li className={ styles.question }>{ question.title }</li> );
+    const questions = questionsData.map( question => (
+        <li 
+            onClick={ () => props.onQuestionSelected( question ) } 
+            className={ styles.question }>
+            { question.title }
+        </li> 
+    ));
 
     return (
         <CurvedHaloBlue disableHalo>

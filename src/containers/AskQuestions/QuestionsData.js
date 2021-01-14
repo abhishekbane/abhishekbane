@@ -5,12 +5,12 @@ export const HOBBIES = 2;
 export const questionsData = [
     {
         title: "Professional Experience?",
-        answer: "",
+        answer: "2+ years of experience",
         id: PROFESSIONAL_EXPERIENCE
     },
     {
         title: "Hobbies?",
-        answer: "",
+        answer: "Running and Watching movies",
         id: HOBBIES
     }
 ];

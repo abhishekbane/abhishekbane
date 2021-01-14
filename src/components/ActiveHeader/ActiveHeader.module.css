@@ -1,6 +1,7 @@
 .placeHolder, .barBackground, .activeHeader {
     height: 15vmin;
     min-height: 6rem;
+    box-sizing: border-box;
 }
 
 .activeHeader {

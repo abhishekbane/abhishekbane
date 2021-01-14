@@ -1,17 +1,13 @@
 import React from 'react';
 
-import ActiveHeader from '../../components/ActiveHeader/ActiveHeader';
+import BotLayout from '../BotLayout/BotLayout';
 import ProjectCase from '../ProjectCase/ProjectCase';
-
-import AskQuestions from '../AskQuestions/AskQuestions';
 
 const Layout = () => {
     return (
-        <div>
-            <ActiveHeader />
+        <BotLayout>
             <ProjectCase />
-            <AskQuestions />
-        </div>
+        </BotLayout>
     );
 };
 

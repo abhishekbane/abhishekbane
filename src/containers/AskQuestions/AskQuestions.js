@@ -5,16 +5,16 @@ import QuestionSelector from '../../components/QuestionSelector/QuestionSelector
 
 import styles from './AskQuestions.module.css';
 
-const AskQuestions = () => {
+const AskQuestions = ( props ) => {
 
     const [ isSelectorVisible, setIsSelectorVisible ] = useState(false);
 
-    const questionSelector = isSelectorVisible ? <QuestionSelector /> : null;
-
-    const onAskButtonClick = (event) => {
+    const onAskButtonClickHandler = (event) => {
         event.stopPropagation();
         setIsSelectorVisible((prevState) => !prevState);
     };
+
+    const questionSelector = isSelectorVisible ? <QuestionSelector onQuestionSelected={ props.onQuestionSelected } /> : null;
 
     useCallback( document.getElementsByTagName("body")[0].addEventListener( "click", () => {
         setIsSelectorVisible(false);
@@ -26,7 +26,7 @@ const AskQuestions = () => {
             <div className={ styles.askQuestionBar }>
                 { questionSelector }
                 <div className={ styles.barBackground }>
-                    <AskButton isHaloVisible={ isSelectorVisible } onClick={ onAskButtonClick } size="2.5rem" />
+                    <AskButton isHaloVisible={ isSelectorVisible } onClick={ onAskButtonClickHandler } size="2.5rem" />
                 </div>
             </div>
         </div>
