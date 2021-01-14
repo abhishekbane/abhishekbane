@@ -2,12 +2,20 @@ import React from 'react';
 
 import styles from './Hyperlink.module.css';
 
-const hyperlink = ( props ) => {
+export const hyperlinkYellow = ( props ) => {
+
     return (
-        <a className={ styles.hyperlink } href={ props.href } target={ props.target }>
+        <a className={ `${styles.hyperlink} ${styles.yellow}` } href={ props.href } target={ props.target }>
             { props.children }
         </a>
     );
 };
 
-export default hyperlink;
+export const hyperlinkBlue = ( props ) => {
+
+    return (
+        <a className={ `${styles.hyperlink} ${styles.blue}` } href={ props.href } target={ props.target }>
+            { props.children }
+        </a>
+    );
+};

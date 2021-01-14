@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Hyperlink from '../../UI/Hyperlink/Hyperlink';
+import { hyperlinkYellow as Hyperlink } from '../../UI/Hyperlink/Hyperlink';
 
 import styles from './ProjectFrameFooter.module.css';
 

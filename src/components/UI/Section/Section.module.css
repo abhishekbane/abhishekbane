@@ -1,0 +1,19 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    position: relative
+}
+
+.anchor {
+    position: absolute;
+    top: -6rem;
+    visibility: hidden;
+}
+
+.heading {
+    margin: 0;
+    padding: 0.5rem 1rem;
+    color: #666;
+    background-color: rgba(249, 195, 47, 0.3);
+}

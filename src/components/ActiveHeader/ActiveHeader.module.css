@@ -12,6 +12,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 100;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
 }
 
 .thinBar {
@@ -40,6 +43,5 @@
     align-items: center;
     justify-content: flex-start;
     width: 100%;
-    background-color: rgba(249, 195, 47, 0.2);
     padding: 0 1rem;
 }

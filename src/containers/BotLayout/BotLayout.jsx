@@ -5,7 +5,7 @@ import AskQuestions from '../AskQuestions/AskQuestions';
 
 const BotLayout = ( props ) => {
     const [ selectedQuestion, setSelectedQuestion ] = useState({
-        answer: "Hi! I am Abhishek.This is my portfolio."
+        answer: `Hi! I am Abhishek. This is my portfolio.`
     });
 
     const onQuestionSelectedHandler = ( question ) => {

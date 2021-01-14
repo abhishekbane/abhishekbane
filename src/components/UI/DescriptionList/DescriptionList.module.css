@@ -1,0 +1,16 @@
+.descriptionList {
+    margin: 0;
+}
+
+.title {
+    font-size: 1.17em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #666;
+}
+
+.item {
+    color: #666;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0.5rem;
+}

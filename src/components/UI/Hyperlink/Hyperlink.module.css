@@ -1,6 +1,13 @@
 .hyperlink {
     text-decoration: none;
-    color: #F9C32F;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: fit-content;
+}
+
+.yellow {
+    color: #F9C32F;
+}
+
+.blue {
+    color: #2F6CF9;
 }

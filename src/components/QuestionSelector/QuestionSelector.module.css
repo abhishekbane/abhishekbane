@@ -1,6 +1,6 @@
 .question {
     cursor: pointer;
-    margin: 0.5rem;
+    margin: 1.5rem;
     color: #666;
 }
 
@@ -14,6 +14,6 @@
 
 .questionSelector {
     list-style: none;
-    padding: 0.5rem 1rem;
+    padding: 0;
     margin: 0;
 }

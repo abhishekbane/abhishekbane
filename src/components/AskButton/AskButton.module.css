@@ -8,12 +8,7 @@
     border-radius: 50%;
     padding: 0.5rem;
     cursor: pointer;
-}
-
-@media (hover: hover) {
-    .askButton:hover {
-        box-shadow: 0 0 0 0.5rem rgba(47, 108, 249, 0.3);
-    }
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 }
 
 .askButton:active {
@@ -25,7 +20,7 @@
 }
 
 .removeHalo {
-    box-shadow: none;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 }
 
 .askIcon {
