@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 import styles from './AskButton.module.css';
 
-import question from '../../question.svg'
+import chat from '../../chat.svg'
 
 const AskButton = ( props ) => {
 
@@ -17,7 +17,7 @@ const AskButton = ( props ) => {
                 }}
                 className={ styles.askIcon }
                 aria-hidden="true"
-                src={ question } />
+                src={ chat } />
         </button>
     );
 };

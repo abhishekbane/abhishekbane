@@ -11,7 +11,7 @@ const answer = ( props ) => {
 
     return (
         <CurvedHaloFrame disableHalo>
-            <Paragraphs>
+            <Paragraphs fontSize="1rem">
                 { ans }
             </Paragraphs>
         </CurvedHaloFrame>

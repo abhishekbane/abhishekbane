@@ -26,7 +26,7 @@ const AskQuestions = ( props ) => {
             <div className={ styles.askQuestionBar }>
                 { questionSelector }
                 <div className={ styles.barBackground }>
-                    <AskButton isHaloVisible={ isSelectorVisible } onClick={ onAskButtonClickHandler } size="2.5rem" />
+                    <AskButton isHaloVisible={ isSelectorVisible } onClick={ onAskButtonClickHandler } size="2rem" />
                 </div>
             </div>
         </div>

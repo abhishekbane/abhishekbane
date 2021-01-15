@@ -11,21 +11,7 @@ export const projectData = [
     {
         title: "NeuralWorksNeat",
         description: `A web tool I first created in college to help students calculate neural network weights. 
-        I has recently updated the user interface and converted the existing backend php script to act as a REST endpoint.`,
-        repoUrl: "https://github.com/abhishekbane/neural-works-neat",
-        webUrl: "https://abhishekbane.github.io/NeuralWorksNeat"
-    },
-    {
-        title: "NeuralWorksNeat",
-        description: `A web tool I first created in college to help students calculate neural network weights. 
-        I had recently updated the user interface and also converted the backend php script to act as a REST endpoint.`,
-        repoUrl: "https://github.com/abhishekbane/neural-works-neat",
-        webUrl: "https://abhishekbane.github.io/NeuralWorksNeat"
-    },
-    {
-        title: "NeuralWorksNeat",
-        description: `A web tool I first created in college to help students calculate neural network weights. 
-        I had recently updated the user interface and also converted the backend php script to act as a REST endpoint.`,
+        I had recently updated the user interface and converted the existing backend php script to act as a REST endpoint.`,
         repoUrl: "https://github.com/abhishekbane/neural-works-neat",
         webUrl: "https://abhishekbane.github.io/NeuralWorksNeat"
     }
@@ -42,7 +28,7 @@ const ProjectCase = () => {
     ) );
 
     return (
-        <Section anchorId={ PERSONAL_PROJECTS } heading="Personal projects">
+        <Section anchorId={ PERSONAL_PROJECTS } heading="Personal websites">
             <div className={ styles.projectCaseContainer }>
                 <div className={ styles.projectCase }>
                     {projectCase}
