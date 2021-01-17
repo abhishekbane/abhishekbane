@@ -9,9 +9,9 @@ import styles from './NonHostedProjects.module.css';
 const nonHostedProjects = () => {
     return (
         <CurvedHaloYellow>
-            <a href="https://github.com/abhishekbane/" target = "_blank" className={ styles.nonHostedProjects }>
-                Checkout on Github
-                <img src={arrowRight} alt=">"/>
+            <a href="https://github.com/abhishekbane/" rel="noreferrer" target = "_blank" className={ styles.nonHostedProjects }>
+                Check me on Github
+                <img src={arrowRight} aria-hidden="true" alt=">"/>
             </a>
         </CurvedHaloYellow>
     );

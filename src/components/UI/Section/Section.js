@@ -9,7 +9,7 @@ const section = ( props ) => {
         <section className={ styles.section }>
             <CurvedHaloFrame width="" disableHalo>
                 <h3 className={ styles.heading }>{ props.heading }</h3>
-                <a  className={ styles.anchor } id={ props.anchorId }>anchor</a>
+                <p  className={ styles.anchor } id={ props.anchorId }>anchor</p>
                 { props.children }
             </CurvedHaloFrame>  
         </section>

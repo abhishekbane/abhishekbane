@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 
 import styles from './AskButton.module.css';
@@ -12,6 +12,7 @@ const AskButton = ( props ) => {
     return (
         <button onClick={ props.onClick } title="Select a question to ask" className={ buttonClasses }>
             <img 
+                alt="chat"
                 style={{
                     width: props.size
                 }}

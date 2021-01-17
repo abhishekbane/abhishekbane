@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import AskButton from '../../components/AskButton/AskButton';
 import QuestionSelector from '../../components/QuestionSelector/QuestionSelector';
@@ -16,9 +16,9 @@ const AskQuestions = ( props ) => {
 
     const questionSelector = isSelectorVisible ? <QuestionSelector onQuestionSelected={ props.onQuestionSelected } /> : null;
 
-    useCallback( document.getElementsByTagName("body")[0].addEventListener( "click", () => {
+    useEffect( () => document.getElementsByTagName("body")[0].addEventListener( "click", () => {
         setIsSelectorVisible(false);
-    } ));
+    } ), []);
 
     return (
         <div>
