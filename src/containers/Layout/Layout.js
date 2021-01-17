@@ -4,6 +4,7 @@ import BotLayout from '../BotLayout/BotLayout';
 import ProjectCase from '../ProjectCase/ProjectCase';
 import WorkExperience from '../../components/WorkExperience/WorkExperience';
 import Skills from '../../components/Skills/Skills';
+import ContactDetails from '../../components/ContactDetails/ContactDetails';
 
 const Layout = () => {
     return (
@@ -11,6 +12,7 @@ const Layout = () => {
             <ProjectCase />
             <WorkExperience />
             <Skills />
+            <ContactDetails />
         </BotLayout>
     );
 };

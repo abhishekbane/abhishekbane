@@ -12,7 +12,7 @@ const skills = ( props ) => {
         <Section anchorId={ SKILLS } heading="Skills">
             <div className={ styles.skills }>
                 <DescriptionList
-                    title="Programming and Technologies"
+                    title="Languages and Technologies"
                     list={[
                         "Javascript",
                         "Typescript",

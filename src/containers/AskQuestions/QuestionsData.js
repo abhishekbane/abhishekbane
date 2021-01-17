@@ -1,22 +1,28 @@
-export const PROFESSIONAL_EXPERIENCE = "profex";
-export const HOBBIES = "hobbies";
-export const PERSONAL_PROJECTS =  "perprojects"
-export const SKILLS = "skills";
+export const PROFESSIONAL_EXPERIENCE = 0;
+export const HOBBIES = 1;
+export const PERSONAL_PROJECTS =  2;
+export const SKILLS = 3;
+export const CONTACT_DETAILS = 4;
 
 export const questionsData = [
     {
         title: "Personal Projects?",
-        answer: `Hi! I am Abhishek. These are the projects I created in my personal time.`,
+        answer: `These are the projects I created in my personal time.`,
         id: PERSONAL_PROJECTS
     },
     {
         title: "Professional Experience?",
-        answer: `Hi! I am Abhishek. This is my work experience.`,
+        answer: `This is my work experience.`,
         id: PROFESSIONAL_EXPERIENCE
     },
     {
         title: "Skills?",
-        answer: `Hi! I am Abhishek. These are my skills.`,
+        answer: `These are my skills.`,
         id: SKILLS
+    },
+    {
+        title: "Contact Details?",
+        answer: `These are my contact details.`,
+        id: CONTACT_DETAILS
     }
 ];

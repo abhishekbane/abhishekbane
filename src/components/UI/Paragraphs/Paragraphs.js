@@ -6,7 +6,7 @@ const paragraphs = (props) => {
 
     const paras = props.children.split("\n").map( (text, index) => (
         <p 
-            style={ { fontSize: props.fontSize } } 
+            style={ { fontSize: props.fontSize, margin: props.margin } } 
             key={ index } 
             className={styles.paragraph}>
             {text}
@@ -14,6 +14,16 @@ const paragraphs = (props) => {
     ));
 
     return (paras);
+};
+
+export const paragraph = (props) => {
+    return (
+        <p 
+            style={ { fontSize: props.fontSize, margin: props.margin } } 
+            className={styles.paragraph}>
+            {props.children}
+        </p>
+    );
 };
 
 export default paragraphs;
