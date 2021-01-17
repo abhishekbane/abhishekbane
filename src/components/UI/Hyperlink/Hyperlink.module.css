@@ -4,6 +4,10 @@
     height: fit-content;
 }
 
+.hyperlink:hover, .hyperlink:active {
+    text-decoration: underline;
+}
+
 .yellow {
     color: #F9C32F;
 }
