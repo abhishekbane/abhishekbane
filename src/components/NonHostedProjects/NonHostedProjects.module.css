@@ -15,3 +15,9 @@
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+@media ( max-width: 31.25rem ) {
+    .nonHostedProjects {
+        width: 100%;
+    }
+}

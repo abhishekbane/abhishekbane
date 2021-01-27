@@ -6,7 +6,7 @@ export const CONTACT_DETAILS = 4;
 
 export const questionsData = [
     {
-        title: "Personal Projects?",
+        title: "Personal Websites?",
         answer: `These are the projects I created in my personal time.`,
         id: PERSONAL_PROJECTS
     },

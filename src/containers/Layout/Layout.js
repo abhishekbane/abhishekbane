@@ -1,7 +1,7 @@
 import React from 'react';
 
 import BotLayout from '../BotLayout/BotLayout';
-import ProjectCase from '../ProjectCase/ProjectCase';
+import ProjectCase from '../../components/ProjectCase/ProjectCase';
 import WorkExperience from '../../components/WorkExperience/WorkExperience';
 import Skills from '../../components/Skills/Skills';
 import ContactDetails from '../../components/ContactDetails/ContactDetails';

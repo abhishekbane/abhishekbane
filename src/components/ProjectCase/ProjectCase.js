@@ -1,11 +1,11 @@
 import React from 'react';
 
-import ProjectFrame from '../../components/ProjectFrame/ProjectFrame';
-import NonHostedProjects from '../../components/NonHostedProjects/NonHostedProjects';
-import Section from '../../components/UI/Section/Section';
+import ProjectFrame from '../ProjectFrame/ProjectFrame';
+import NonHostedProjects from '../NonHostedProjects/NonHostedProjects';
+import Section from '../UI/Section/Section';
 
 import styles from './ProjectCase.module.css';
-import { PERSONAL_PROJECTS } from '../AskQuestions/QuestionsData';
+import { PERSONAL_PROJECTS } from '../../containers/AskQuestions/QuestionsData';
 
 export const projectData = [
     {

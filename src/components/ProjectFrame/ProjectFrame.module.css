@@ -11,3 +11,10 @@
     color: #666;
     margin: 1rem;
 }
+
+@media ( max-width: 31.25rem ) {
+    .projectFrame {
+        width: 100%;
+        align-content: stretch;
+    }
+}
